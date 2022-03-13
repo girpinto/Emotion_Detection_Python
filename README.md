@@ -1,26 +1,47 @@
-# Welcome to GitHub
+# Emotion detection in Python
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+Welcome back, developers. In this repository I want to share with you my last project about Python. Currently I stopped my learning about Swift and started a new path in Python and in many other programming languages. 
 
-## Repositories
+Today I want to share the Emotion detection using Python, a very funny projects that allows you to become more skilled in python. 
 
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
+Remember to follow me on my other social media, in this way you'll be updated every time I publish something new about Python. Below you'll find a list of my other social media.
 
-This repository contains three important files: The HTML code for your first website on GitHub, the CSS stylesheet that decorates your website with colors and fonts, and the **README** file. It also contains an image folder, with one image file.
+Let's start!
 
-## Describe your project
+## Project description
 
-You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
+This project it was made completely in Python and it's basically a script which allows user to open the pc camera to detect the face and through an `.xml` file the script is able to recognize which emotion is on your face. 
 
-[Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
+The `.xml` file we will using it's `haarcascade_frontalface_default.xml` and you cnad it attached in the repository. It's one of the **haarcascades** data file that you can use with *cv2* package. 
 
-## Your first website
+The project was made by using **PyCharm** as **IDE**, but you can use whatever IDE you prefere or also the terminal. It's important to understand that if you want to run this project you should install **cv2** package, it doesn't matter if you install it in PyCharm or directly on you machine.
 
-**GitHub Pages** is a free and easy way to create a website using the code that lives in your GitHub repositories. You can use GitHub Pages to build a portfolio of your work, create a personal website, or share a fun project that you coded with the world. GitHub Pages is automatically enabled in this repository, but when you create new repositories in the future, the steps to launch a GitHub Pages website will be slightly different.
+**Note**: This particular guide is intended for Windows users. I don't have a Mac. 
 
-[Learn more about GitHub Pages](https://pages.github.com/)
+Below I'll explain how to install everything you need on your machine to run the project. 
 
-## Rename this repository to publish your site
+# Install Python 
+
+**Note** : We will install the newest version of Python on our machines, at the moment I’m writing this I’m using Python 3. Things can change (software developers know well this sh@!t), so in case there will be some changes I will post another guide.
+
+To install **Python** on your machine and run the project directly from the terminal you should know that there are three methods to install Python on your machines, I will display all the methods here, than you can choose whatever method you prefer:
+
+1. **The Microsoft Store** : This method involves installing Python from the Microsoft Store app. This is recommended for beginner Python users looking for an easy-to-set-up experience.
+2. **The full installer** : This approach involves downloading Python directly from the [Python.org website](https://www.python.org/). This is recommended for intermediate and advanced developers who need more control during the setup process.
+3. **Windows Subsystem for Linux** : The WSL allows you to run a Linux environment directly in Windows. If you don’t know how to enable the WSL on your Windows PC you can check the [Microsoft Documentation on Installing WSL on Windows](https://docs.microsoft.com/it-it/windows/wsl/install).
+
+**Note**: In this section, we’ll focus on only the first two options, which are the most popular installation methods in a Windows environment.
+
+Before to install Python let’s check if we already have Python on our Windows machine.
+
+## How to check Python version on Windows 
+
+First let’s open the Terminal.
+
+1. Click on search bar in Windows (if you can't see search bar on your Desktop click Windows button )
+Type PowerShell in Search Bar
+Then press Enter
+After you opened the PowerShell, type:
 
 We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
 
