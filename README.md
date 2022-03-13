@@ -38,7 +38,7 @@ Before to install Python let’s check if we already have Python on our Windows 
 
 First let’s open the Terminal.
 
-1. Click on search bar in Windows (if you can't see search bar on your Desktop click Windows button )
+1. Click on search bar in Windows (if you can't see search bar on your Desktop click Windows button https://github.com/girpinto/Emotion_Detection_Python/issues/1#issue-1167563631)
 Type PowerShell in Search Bar
 Then press Enter
 After you opened the PowerShell, type:
